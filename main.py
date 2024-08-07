@@ -10,7 +10,7 @@ def event_simulation():
     for n in range(0, 100):
         lot_won = {
             "email": f"email_{n}@test.com",
-            "number": 1,
+            "number": n,
             "title": f"Lot {n}",
             "currency": "USD",
             "amount": n,
